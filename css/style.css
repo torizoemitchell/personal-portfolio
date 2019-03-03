@@ -60,8 +60,36 @@ footer.page-footer {
     height: 9.3em;
 }
 
+.video{
+  margin: 50px;
+}
+
 .heading{
   background-color: white;
+}
+
+.recent{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6em;
+  text-decoration: underline;
+  margin: 10px 10px -15px 10px;
+  color: #374458;
+}
+
+.professional{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6em;
+  text-decoration: underline;
+  margin: 10px 10px 20px 10px;
+  color: #374458;
+}
+
+.about-me-head{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6em;
+  text-decoration: underline;
+  margin: 10px 10px 20px 10px;
+  color: #374458;
 }
 
 .no-shadow{
@@ -82,12 +110,12 @@ footer.page-footer {
   margin-bottom: 5px;
   margin-top: 30px;
   color: #374458;
-  font-size: 3.6em;
+  font-size: 2.6em;
 }
 
 .intro{
   font-family: 'Roboto', sans-serif;
-  font-size: 1.5em;
+  font-size: 1.0em;
   color: #374458;
 }
 
@@ -138,8 +166,21 @@ footer.page-footer {
   font-family: 'Roboto', sans-serif;
 }
 
+.prof-text{
+  color: #374458;
+}
+
+.line-height{
+  line-height: 1.5;
+}
+
 .about-me{
   padding: 70px !important;
+}
+
+.about-me-bod{
+  font-family: 'Roboto', sans-serif;
+  color:  #374458;
 }
 
 .about-row{
@@ -148,6 +189,18 @@ footer.page-footer {
   align-items: center;
 }
 
+.contact-head{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6em;
+  text-decoration: underline;
+  margin: 10px 10px 20px 0px;
+  color: white;
+}
+
+.contact-bod{
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
 .contact-section{
   font-family: 'Roboto', sans-serif;
 }
