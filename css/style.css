@@ -31,7 +31,6 @@ p {
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
-    position: absolute;
     top: 40%;
   }
   #index-banner .section {
@@ -72,18 +71,53 @@ footer.page-footer {
   font-family: 'Roboto', sans-serif;
   font-size: 1.6em;
   text-decoration: underline;
-  margin: 10px 10px -15px 10px;
   color: #374458;
+  position: absolute;
+  top: 45px;
+  margin: 0px 0px 0px 0px;
+}
+
+.recent-container{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+.recent-underlay{
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  background-color: white;
+  opacity: 0.5;
+  position: absolute;
 }
 
 .professional{
   font-family: 'Roboto', sans-serif;
-  font-size: 1.6em;
+  font-size: 1.2em;
   text-decoration: underline;
-  margin: 10px 10px 20px 10px;
   color: #374458;
+  position: absolute;
+  margin: 0px 0px 0px 0px;
+  top: 70px;
 }
 
+.professional-underlay{
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
+  background-color: white;
+  opacity: 0.5;
+  position: absolute;
+}
+
+.professional-container{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 170px;
+}
 .about-me-head{
   font-family: 'Roboto', sans-serif;
   font-size: 1.6em;
@@ -131,11 +165,11 @@ footer.page-footer {
 }
 
 .banner{
-  min-height: 200px;
+  min-height: 500px;
 }
 
 .banner2{
-  min-height: 200px;
+  min-height: 500px;
 }
 
 .card-text{
