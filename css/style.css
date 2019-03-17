@@ -60,7 +60,8 @@ footer.page-footer {
 }
 
 .video{
-  margin: 50px;
+  margin-bottom: 50px;
+  margin-top: 25px;
 }
 
 .heading{
@@ -71,17 +72,30 @@ footer.page-footer {
   font-family: 'Roboto', sans-serif;
   font-size: 1.6em;
   text-decoration: underline;
-  color: #374458;
-  position: absolute;
+  color: white;
+  /* position: absolute;
   top: 45px;
-  margin: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px; */
 }
 
-.recent-container{
+/* .recent-container{
   position: relative;
   display: flex;
   justify-content: center;
   margin-bottom: 60px;
+}  */
+
+.highlights{
+  background-color: #374458;
+}
+
+.background-blue{
+  background-color: #374458 !important;
+  margin-bottom: 0px;
+}
+
+.no-margin{
+  margin-bottom: 0px;
 }
 
 .recent-underlay{
@@ -165,7 +179,7 @@ footer.page-footer {
 }
 
 .banner{
-  min-height: 500px;
+  min-height: 180px;
 }
 
 .banner2{
